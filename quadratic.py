@@ -56,3 +56,8 @@ def derivation(a, b, c):
             derivada= f"f'(x) = {b}"
         elif b ==0:
             derivada= f"f'(x) = 0"
+    else:
+        derivada= f"f'(x) = {a * 2} * X + {b}"
+ 
+
+    return derivada
